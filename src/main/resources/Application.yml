@@ -1,5 +1,0 @@
-spring:
-  data:
-    mongodb:
-      uri: mongodb+srv://mkpalariya:Mukul@cluster0.gds4ian.mongodb.net/SMSystem?retryWrites=true&w=majority
-      database: microservices
