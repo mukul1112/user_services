@@ -13,7 +13,16 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.Collection;
 
-
+//"id": "de95",
+//        "firstname": "karan",
+//        "lastname": "kahna",
+//        "email": "kahan@gamil.com",
+//        "dob": "2024-04-11T18:30:00.000Z",
+//        "gender": "Male",
+//        "education": "PostGraduate",
+//        "company": "kahjl",
+//        "experience": 7,
+//        "package": 5
 
 @Document(collection = "users")
 @Getter
@@ -22,6 +31,14 @@ import java.util.Collection;
 @NoArgsConstructor
 public class User implements UserDetails {
     private String name;
+    private String lastname;
+    private String dob;
+    private String gender;
+    private String education;
+    private String company;
+    private String experience;
+    private String ctc;
+
     @Id
     private String id;
     private String email;
